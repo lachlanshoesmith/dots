@@ -1,0 +1,52 @@
+"   /\/|   __       _                       
+"  |/\/   / /      (_)                      
+"        / /__   __ _  _ __ ___   _ __  ___ 
+"       / / \ \ / /| || '_ ` _ \ | '__|/ __|
+"      / / _ \ V / | || | | | | || |  | (__ 
+"     /_/ (_) \_/  |_||_| |_| |_||_|   \___|
+"
+"     ~/.vimrc by Lachlan Shoesmith (lachlantula).
+"     Last updated: 6/12/18.
+
+syntax on
+
+" Plugins will be downloaded under the specified directory.
+call plug#begin('~/.vim/plugged')
+
+" Declare the list of plugins.
+Plug 'posva/vim-vue'
+Plug 'godlygeek/tabular'
+Plug 'plasticboy/vim-markdown'
+Plug 'mattn/emmet-vim'
+Plug 'rstacruz/vim-closer'
+Plug 'scrooloose/nerdtree'
+Plug 'itchyny/lightline.vim'
+Plug 'junegunn/goyo.vim'
+Plug 'dracula/vim', { 'as': 'dracula' }
+
+" List ends here. Plugins become visible to Vim after this call.
+call plug#end()
+
+" Make Vim read .md files as Markdown (.markdown) files.
+
+au BufNewFile,BufFilePre,BufRead *.md set
+
+" Change the cursor to my personal terminal one.
+set guicursor=a:ver20-blinkon1
+
+" Open a file tree with Ctrl+N.
+
+map <C-n> :NERDTreeToggle<CR>
+
+" Display relative line numbers
+
+set number relativenumber
+
+" Indentation
+
+set expandtab
+set shiftwidth=2
+set autoindent
+set smartindent
+set tabstop=2
+set softtabstop=2
