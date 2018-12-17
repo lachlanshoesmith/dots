@@ -5,4 +5,4 @@ This repository contains a collection of dotfiles that I use across both macOS a
 
 ## What's up with the ##Darwin and ##Linux after the file extension?
 
-For dotfile management I use [YADM](https://github.com/TheLocehiliosan/yadm), which automates 'alternative files'. By putting that after the file name YADM can tell which file to use, respective of the operating system.
+For dotfile management I use [yadm](https://github.com/TheLocehiliosan/yadm), which automates 'alternative files'. By putting that after the file name yadm can tell which file to use, respective of the operating system.
