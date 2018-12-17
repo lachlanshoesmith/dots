@@ -1,4 +1,15 @@
-# ~/.alacritty.yml - Linux version
+#   /\/|   __       _                     _  _    _                               _ 
+#  |/\/   / /      | |                   (_)| |  | |                             | |
+#        / /  __ _ | |  __ _   ___  _ __  _ | |_ | |_  _   _    _   _  _ __ ___  | |
+#       / /  / _` || | / _` | / __|| '__|| || __|| __|| | | |  | | | || '_ ` _ \ | |
+#      / / _| (_| || || (_| || (__ | |   | || |_ | |_ | |_| | _| |_| || | | | | || |
+#     /_/ (_)\__,_||_| \__,_| \___||_|   |_| \__| \__| \__, |(_)\__, ||_| |_| |_||_|
+#                                                       __/ |    __/ |              
+#                                                      |___/    |___/               
+#     ( Linux revision. )
+#
+#     by Lachlan Shoesmith (lachlantula).
+#     Last updated: 18/12/18
 
 # Configuration for Alacritty, the GPU enhanced terminal emulator.
 
@@ -424,5 +435,3 @@ key_bindings:
   - { key: F10, mods: Super, chars: "\x1b[21;3~" }
   - { key: F11, mods: Super, chars: "\x1b[23;3~" }
   - { key: F12, mods: Super, chars: "\x1b[24;3~" }
-
-
