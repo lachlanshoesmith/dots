@@ -5,8 +5,10 @@
 "      / / _ \ V / | || | | | | || |  | (__ 
 "     /_/ (_) \_/  |_||_| |_| |_||_|   \___|
 "
+"     ( macOS/Darwin revision. )
+"
 "     ~/.vimrc by Lachlan Shoesmith (lachlantula).
-"     Last updated: 6/12/18.
+"     Last updated: 19/12/18.
 
 syntax on
 
