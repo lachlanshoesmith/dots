@@ -32,6 +32,7 @@ source $ZSH/oh-my-zsh.sh
 ## Aliases
 
 alias music="ncmpcpp"
+alias vim="nvim" # Use neovim instead of vim.
 
 # Pywal/WPGTK
 
