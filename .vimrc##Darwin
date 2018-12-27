@@ -8,7 +8,7 @@
 "     ( macOS/Darwin revision. )
 "
 "     ~/.vimrc by Lachlan Shoesmith (lachlantula).
-"     Last updated: 19/12/18.
+"     Last updated: 27/12/18.
 
 syntax on
 
@@ -36,9 +36,9 @@ au BufNewFile,BufFilePre,BufRead *.md set
 " Change the cursor to my personal terminal one.
 set guicursor=a:ver20-blinkon1
 
-" Open a file tree with Ctrl+N.
+" Open a file tree with Ctrl+T.
 
-map <C-n> :NERDTreeToggle<CR>
+map <C-T> :NERDTreeToggle<CR>
 
 " Display relative line numbers
 
