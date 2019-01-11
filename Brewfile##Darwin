@@ -63,4 +63,4 @@ cask 'discord'
 # /r/unixporn toys
 brew 'neofetch'
 brew 'yadm'
-
+brew 'pipes-sh'
