@@ -1,0 +1,66 @@
+#   ____                         __  _  _       
+#  |  _ \                       / _|(_)| |      
+#  | |_) | _ __  ___ __      __| |_  _ | |  ___ 
+#  |  _ < | '__|/ _ \\ \ /\ / /|  _|| || | / _ \
+#  | |_) || |  |  __/ \ V  V / | |  | || ||  __/
+#  |____/ |_|   \___|  \_/\_/  |_|  |_||_| \___|
+#
+#  Brewfile by Lachlan Shoesmith (lachlantula).
+#  Last updated: 11/1/19.
+
+# Shell
+brew 'zsh'
+
+# Package Management
+brew 'npm'
+brew 'yarn'
+brew 'git'
+
+# Web Browsers
+cask 'google-chrome'
+cask 'firefox'
+
+# Languages
+brew 'python@2'
+brew 'python3'
+brew 'node' # I know it's not a language, but y'know.
+
+# Tiling WM-related
+tap 'koekeishiya/formulae'
+brew 'chunkwm', restart_service: true
+brew 'koekeishiya/formulae/skhd', restart_service: true
+cask 'ubersicht'
+
+# Text Editors
+brew 'neovim'
+cask 'oni'
+cask 'visual-studio-code'
+
+# Terminal Emulators
+cask 'alacritty' # Note: If you use my dotfiles, you need to delete 
+                 #       alacritty.yml before opening Alacritty.
+                 #       Once you've done that once, try create the file.
+brew 'tmux'
+
+# Media
+brew 'ffmpeg'
+brew 'youtube-dl'
+cask 'spotify'
+cask 'vlc'
+cask 'musicbrainz-picard'
+
+# Typefaces
+tap 'caskroom/fonts'
+cask 'font-iosevka'
+
+# File Management
+brew 'ranger'
+mas 'The Unarchiver', id: 425424353 # Requires an Apple ID.
+
+# Socials
+cask 'discord'
+
+# /r/unixporn toys
+brew 'neofetch'
+brew 'yadm'
+
