@@ -24,13 +24,6 @@
 #       'stdout' or 'stderr' can be used instead of an actual filepath.
 #
 
-# Import Pywal colours.
-
-source ~/.cache/wal/chunkwmcolors
-
-NFOCUS=$(echo $FOCUS | sed 's/#//')
-NPRESE=$(echo $PRESE | sed 's/#//')
-
 chunkc core::log_file stdout
 
 #
@@ -103,7 +96,7 @@ chunkc set mouse_move_window             \"fn 1\"
 chunkc set mouse_resize_window           \"fn 2\"
 chunkc set mouse_motion_interval         35
 
-chunkc set preselect_border_color        $NPRESE
+chunkc set preselect_border_color        0xffd75f5f 
 chunkc set preselect_border_width        5
 
 #
@@ -121,7 +114,7 @@ chunkc set window_use_cgs_move           0
 # NOTE: the following are config variables for the chunkwm-border plugin.
 #
 
-chunkc set focused_border_color          $NFOCUS
+chunkc set focused_border_color          0xff0f6288
 chunkc set focused_border_width          2
 chunkc set focused_border_radius         0
 chunkc set focused_border_skip_floating  0
