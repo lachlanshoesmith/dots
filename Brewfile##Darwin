@@ -6,7 +6,7 @@
 #  |____/ |_|   \___|  \_/\_/  |_|  |_||_| \___|
 #
 #  Brewfile by Lachlan Shoesmith (lachlantula).
-#  Last updated: 11/1/19.
+#  Last updated: 28/1/19.
 
 # Shell
 brew 'zsh'
@@ -33,8 +33,9 @@ cask 'ubersicht'
 
 # Text Editors
 brew 'neovim'
-cask 'oni'
+cask 'vimr'
 cask 'visual-studio-code'
+mas 'Xcode', id: 497799835 # Requires an Apple ID.
 
 # Terminal Emulators
 cask 'alacritty' # Note: If you use my dotfiles, you need to delete 
@@ -55,6 +56,7 @@ cask 'font-iosevka'
 
 # File Management
 brew 'ranger'
+brew 'bat'
 mas 'The Unarchiver', id: 425424353 # Requires an Apple ID.
 
 # Socials

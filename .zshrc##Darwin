@@ -8,7 +8,7 @@
 #     ( macOS revision.)
 #
 #     by Lachlan Shoesmith (lachlantula).
-#     Last updated: 17/12/18
+#     Last updated: 28/12/18
 
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:$PATH
@@ -115,6 +115,7 @@ alias safari="open -a 'Safari'"
 alias firefox="open -a 'Firefox'"
 alias restarttb="sudo pkill TouchBarServer"
 alias vim='nvim'
+alias update='brew update; brew upgrade; brew cleanup; brew doctor'
 
 # Set Spaceship ZSH as a prompt
 autoload -U promptinit; promptinit
