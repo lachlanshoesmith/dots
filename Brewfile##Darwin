@@ -47,7 +47,7 @@ brew 'tmux'
 brew 'ffmpeg'
 brew 'youtube-dl'
 cask 'spotify'
-cask 'vlc'
+cask 'iina'
 cask 'musicbrainz-picard'
 
 # Typefaces

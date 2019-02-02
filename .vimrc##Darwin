@@ -8,7 +8,7 @@
 "     ( macOS/Darwin revision. )
 "
 "     ~/.vimrc by Lachlan Shoesmith (lachlantula).
-"     Last updated: 27/12/18.
+"     Last updated: 2/2/19.
 
 syntax on
 
@@ -25,9 +25,29 @@ Plug 'scrooloose/nerdtree'
 Plug 'itchyny/lightline.vim'
 Plug 'junegunn/goyo.vim'
 Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'w0rp/ale'
+
+" Deoplete.
+if has('nvim')
+  Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+else
+  Plug 'Shougo/deoplete.nvim'
+  Plug 'roxma/nvim-yarp'
+  Plug 'roxma/vim-hug-neovim-rpc'
+endif
+let g:deoplete#enable_at_startup = 1
 
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
+
+" Hide --INSERT--, etc, since Lightline shows it.
+set noshowmode
+
+" Set Lightline theme.
+
+let g:lightline = {
+  \ 'colorscheme': 'darcula',
+  \ }
 
 " Make Vim read .md files as Markdown (.markdown) files.
 
@@ -52,3 +72,6 @@ set autoindent
 set smartindent
 set tabstop=2
 set softtabstop=2
+
+" Set this variable to 1 to fix files when you save them.
+let g:ale_fix_on_save = 1
