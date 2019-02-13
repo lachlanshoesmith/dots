@@ -19,6 +19,8 @@ brew 'git'
 # Web Browsers
 cask 'google-chrome'
 cask 'firefox'
+cask 'vivaldi'
+# It's a good idea to have a few of these installed.
 
 # Languages
 brew 'python@2'
@@ -33,7 +35,7 @@ cask 'ubersicht'
 
 # Text Editors
 brew 'neovim'
-cask 'vimr'
+cask 'vimr' # Recommended.
 cask 'visual-studio-code'
 mas 'Xcode', id: 497799835 # Requires an Apple ID.
 
@@ -61,6 +63,7 @@ mas 'The Unarchiver', id: 425424353 # Requires an Apple ID.
 
 # Socials
 cask 'discord'
+cask 'signal'
 
 # /r/unixporn toys
 brew 'neofetch'

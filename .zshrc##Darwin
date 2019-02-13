@@ -116,6 +116,9 @@ alias firefox="open -a 'Firefox'"
 alias restarttb="sudo pkill TouchBarServer"
 alias vim='nvim'
 alias update='brew update; brew upgrade; brew cleanup; brew doctor'
+alias b='HOMEBREW_NO_AUTO_UPDATE=1 brew' # homebrew but faster;
+                                         # doesn't update every time.
+                                         # use `update` instead occasionally.
 
 # Set Spaceship ZSH as a prompt
 autoload -U promptinit; promptinit
