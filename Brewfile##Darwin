@@ -6,10 +6,10 @@
 #  |____/ |_|   \___|  \_/\_/  |_|  |_||_| \___|
 #
 #  Brewfile by Lachlan Shoesmith (lachlantula).
-#  Last updated: 28/1/19.
+#  Last updated: 16/2/19.
 
 # Shell
-brew 'zsh'
+brew 'fish'
 
 # Package Management
 brew 'npm'
@@ -69,3 +69,7 @@ cask 'signal'
 brew 'neofetch'
 brew 'yadm'
 brew 'pipes-sh'
+
+# Productivity
+cask 'rocket'
+cask 'alfred'
