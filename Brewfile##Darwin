@@ -17,9 +17,8 @@ brew 'yarn'
 brew 'git'
 
 # Web Browsers
-cask 'google-chrome'
+cask 'eloston-chromium'
 cask 'firefox'
-cask 'vivaldi'
 # It's a good idea to have a few of these installed.
 
 # Languages
