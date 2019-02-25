@@ -253,4 +253,4 @@ ctrl + alt - w : chunkc tiling::desktop --deserialize ~/.chunkwm_layouts/dev_1
 
 # open Alacritty terminal
 
-cmd - return : open -a 'Alacritty'
+cmd - return : open -n -a 'Alacritty'
