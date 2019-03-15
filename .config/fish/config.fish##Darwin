@@ -1,0 +1,26 @@
+set fish_greeting
+
+alias vim='nvim'
+alias update='brew update; brew upgrade; brew cleanup; brew doctor'
+abbr -a -g new open -n '/Applications/Alacritty.app'
+
+function b 
+  set HOMEBREW_NO_AUTO_UPDATE 1
+  brew 
+end
+
+function update
+  brew update
+  brew upgrade
+  brew cleanup
+  brew doctor
+end
+
+function clean
+  echo '!-- This might take a moment.'
+  echo '!- Running Homebrew update and cleanup...'
+  update
+  echo '!- Clearing out temporary downloads...'
+  rm -r ~/Downloads/temp/*
+  echo '!-- All done. Thanks for using `clean` by Lachlan Shoesmith (@lachlantula).'
+end
