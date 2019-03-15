@@ -78,6 +78,9 @@ set smartindent
 set tabstop=2
 set softtabstop=2
 
+" Word wrap.
+set linebreak
+
 " Set this variable to 1 to fix files when you save them.
 let g:ale_fix_on_save = 1
 
