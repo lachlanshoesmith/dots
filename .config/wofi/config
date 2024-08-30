@@ -2,7 +2,6 @@ width=520
 height=550
 location=center
 show=drun
-matching=fuzzy
 filter_rate=100
 allow_markup=true
 no_actions=true
