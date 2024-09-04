@@ -15,10 +15,11 @@
     "modules-right": [
         "pulseaudio",
         "network",
-	{% if yadm.hostname == "cresselia" %}
+{% if yadm.hostname == "cresselia" %}
 	"battery",
-	{% else %}
-	{% endif %}
+{% else %}
+	hello
+{% endif %}
         "clock",
         "tray"
     ],
