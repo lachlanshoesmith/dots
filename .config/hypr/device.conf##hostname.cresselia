@@ -1,0 +1,23 @@
+# https://wiki.hyprland.org/Configuring/Configuring-Hyprland/
+
+################
+### MONITORS ###
+################
+
+# See https://wiki.hyprland.org/Configuring/Monitors/
+
+
+##################
+### WORKSPACES ###
+##################
+
+# See https://wiki.hyprland.org/Configuring/Workspaces/
+
+#############################
+### ENVIRONMENT VARIABLES ###
+#############################
+
+# See https://wiki.hyprland.org/Configuring/Environment-variables/
+
+env = XCURSOR_SIZE,20
+env = HYPRCURSOR_SIZE,20

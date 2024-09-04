@@ -1,0 +1,28 @@
+# https://wiki.hyprland.org/Configuring/Configuring-Hyprland/
+
+################
+### MONITORS ###
+################
+
+# See https://wiki.hyprland.org/Configuring/Monitors/
+monitor=HDMI-A-1, 3840x2160@60, 0x0, 1.5
+monitor=DP-2, 2560x1440@165, 2560x0, 1
+
+
+##################
+### WORKSPACES ###
+##################
+
+workspace = 4, monitor:HDMI-A-1
+workspace = 5, monitor:HDMI-A-1
+
+
+
+#############################
+### ENVIRONMENT VARIABLES ###
+#############################
+
+# See https://wiki.hyprland.org/Configuring/Environment-variables/
+
+env = XCURSOR_SIZE,24
+env = HYPRCURSOR_SIZE,24
