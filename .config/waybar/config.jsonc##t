@@ -17,6 +17,7 @@
         "network",
 	{% if yadm.hostname == "cresselia" %}
 	"battery",
+	{% else %}
 	{% endif %}
         "clock",
         "tray"
