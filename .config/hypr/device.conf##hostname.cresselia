@@ -5,7 +5,7 @@
 ################
 
 # See https://wiki.hyprland.org/Configuring/Monitors/
-
+#monitor = DP-1, 1280x743, 0x0, 1.72
 
 ##################
 ### WORKSPACES ###
