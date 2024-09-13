@@ -21,3 +21,11 @@
 
 env = XCURSOR_SIZE,20
 env = HYPRCURSOR_SIZE,20
+
+
+################
+### PROGRAMS ###
+################
+
+exec-once = nm-applet &
+exec-once = blueman-manager &
