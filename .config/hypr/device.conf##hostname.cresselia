@@ -21,3 +21,24 @@
 
 env = XCURSOR_SIZE,20
 env = HYPRCURSOR_SIZE,20
+
+
+################
+### PROGRAMS ###
+################
+
+exec-once = nm-applet &
+exec-once = blueman-manager &
+
+
+###################
+### KEYBINDINGS ###
+###################
+
+binde =, XF86AudioLowerVolume, exec, wpctl set-volume -l 1.4 @DEFAULT_AUDIO_SINK@ 5%-
+binde =, XF86AudioRaiseVolume, exec, wpctl set-volume -l 1.4 @DEFAULT_AUDIO_SINK@ 5%+
+bindl =, XF86AudioMute, exec, wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle
+
+binde =, XF86MonBrightnessDown, exec, brightnessctl set 10%-
+binde =, XF86MonBrightnessUp, exec, brightnessctl set +10%
+
