@@ -19,6 +19,5 @@ alias cse_umnt="fusermount -u ~/cse"
 alias vim="nvim"
 alias btop="btop --utf-force"
 alias htop="btop"
-alias code="/usr/bin/codium --enable-features=UseOzonePlatform,WaylandWindowDecorations --ozone-platform=wayland"
 
 source /usr/share/nvm/init-nvm.sh
