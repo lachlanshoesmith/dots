@@ -42,3 +42,5 @@ bindl =, XF86AudioMute, exec, wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle
 binde =, XF86MonBrightnessDown, exec, brightnessctl set 10%-
 binde =, XF86MonBrightnessUp, exec, brightnessctl set +10%
 
+bindl = , switch:on:"Lid Switch", exec, hyprctl keyword monitor "eDP-1, disable"
+bindl = , switch:off:"Lid Switch", exec, hyprctl keyword monitor "eDP-1, 1920x1080, 0x0, 1"
