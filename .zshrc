@@ -19,6 +19,7 @@ alias cse_umnt="fusermount -u ~/cse"
 alias vim="nvim"
 alias btop="btop --utf-force"
 alias htop="btop"
+alias cserun="~/.cargo/bin/cserun"
 
 source /usr/share/nvm/init-nvm.sh
 
