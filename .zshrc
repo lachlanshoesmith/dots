@@ -21,3 +21,6 @@ alias btop="btop --utf-force"
 alias htop="btop"
 
 source /usr/share/nvm/init-nvm.sh
+
+SSH_AUTH_SOCK=$XDG_RUNTIME_DIR/gcr/ssh
+export SSH_AUTH_SOCK
