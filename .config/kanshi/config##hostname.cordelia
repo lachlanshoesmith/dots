@@ -1,0 +1,14 @@
+profile {
+	output HDMI-A-2 {
+		mode 3840x2160@60.00Hz
+		position 0,0
+		scale 1.5
+	}
+	output DP-2 {
+		mode 2560x1440@165.08Hz
+		position 2560,0
+		scale 1
+		adaptive_sync on
+	}
+	exec sleep 1; swww restore; sleep 1; swww restore
+}
