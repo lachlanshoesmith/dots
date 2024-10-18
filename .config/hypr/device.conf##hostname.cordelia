@@ -1,24 +1,11 @@
 # https://wiki.hyprland.org/Configuring/Configuring-Hyprland/
 
-################
-### MONITORS ###
-################
-
-# Now using kanshi to manage screens - ignore
-
-# See https://wiki.hyprland.org/Configuring/Monitors/
-#monitor=HDMI-A-2, 3840x2160@60, 0x0, 1.5
-#monitor=DP-2, 2560x1440@165, 2560x0, 1
-
-
 ##################
 ### WORKSPACES ###
 ##################
 
 workspace = 4, monitor:HDMI-A-2
 workspace = 5, monitor:HDMI-A-2
-
-
 
 #############################
 ### ENVIRONMENT VARIABLES ###
