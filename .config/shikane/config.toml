@@ -1,17 +1,1 @@
-[[profile]]
-name = "portable_monitor"
-exec = ["notify-send shikane \"Profile $SHIKANE_PROFILE_NAME has been applied\"", "swww restore"]
-	[[profile.output]]
-	search = "n=eDP-1"
-	enable = true
-	mode = "1920x1080@60"
-	position = "0,0"
-	scale = 1.5
-
-	[[profile.output]]
-	search = "n=DP-1"
-	enable = true
-	mode = "2160x1440@60"
-	position = "1280,0"
-	scale = 2.0
-
+config.toml##hostname.cordelia

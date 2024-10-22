@@ -1,0 +1,17 @@
+[[profile]]
+	name = "default"
+	exec = ["notify-send shikane \"Profile $SHIKANE_PROFILE_NAME has been applied\"", "swww restore; sleep 8; swww restore"]
+
+	[[profile.output]]
+		search = "m%S3221QS"
+		enable = true
+		mode = "3840x2160@60"
+		position = "0,0"
+		scale = 1.5
+
+	[[profile.output]]
+		search = "m%S2721DGF"
+		enable = true
+		mode = "2560x1440@165"
+		position = "2560,0"
+		scale = 1.5
