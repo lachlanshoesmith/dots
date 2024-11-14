@@ -25,3 +25,11 @@ source /usr/share/nvm/init-nvm.sh
 
 SSH_AUTH_SOCK=$XDG_RUNTIME_DIR/gcr/ssh
 export SSH_AUTH_SOCK
+
+# pnpm
+export PNPM_HOME="/home/lachie/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
