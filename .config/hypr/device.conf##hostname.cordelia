@@ -4,8 +4,8 @@
 ### WORKSPACES ###
 ##################
 
-workspace = 4, monitor:model:DELL S3221QS
-workspace = 5, monitor:model:DELL S3221QS
+workspace = 4, monitor:desc:Dell Inc. DELL S3221QS 2N4KB33
+workspace = 5, monitor:desc:Dell Inc. DELL S3221QS 2N4KB33
 
 #############################
 ### ENVIRONMENT VARIABLES ###
