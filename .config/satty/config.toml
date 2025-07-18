@@ -1,6 +1,6 @@
 [general]
 # Start Satty in fullscreen mode
-fullscreen = true
+fullscreen = false
 # Exit directly after copy/save action
 early-exit = true
 # Draw corners of rectangles round if the value is greater than 0 (0 disables rounded corners)
@@ -18,7 +18,7 @@ save-after-copy = true
 # Hide toolbars by default
 default-hide-toolbars = false
 # Experimental: whether window focus shows/hides toolbars. This does not affect initial state of toolbars, see default-hide-toolbars.
-focus-toggles-toolbars = false
+#focus-toggles-toolbars = false
 # The primary highlighter to use, the other is accessible by holding CTRL at the start of a highlight [possible values: block, freehand]
 primary-highlighter = "block"
 # Disable notifications
