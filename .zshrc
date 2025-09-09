@@ -1,3 +1,6 @@
+# wallust theming
+(cat ~/.cache/wallust/sequences &)
+
 export ZSH="$HOME/.oh-my-zsh"
 
 ZSH_THEME="spaceship"
@@ -17,7 +20,7 @@ alias cse_mnt="sshfs -o idmap=user -C z5406222@login2.cse.unsw.edu.au: ~/cse"
 alias cse_umnt="fusermount -u ~/cse"
 
 alias vim="nvim"
-alias btop="btop --utf-force"
+alias btop="btop --force-utf"
 alias htop="btop"
 alias cserun="~/.cargo/bin/cserun"
 
