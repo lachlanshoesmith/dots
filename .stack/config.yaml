@@ -1,0 +1,12 @@
+# Stop downloading GHCs into isolated locations under ~/.stack.
+install-ghc: false
+
+# Allow Stack to pick the system GHC (false by default).
+system-ghc: true
+
+# Allow to use, say, Stackage snapshot for GHC 8.8.2 with system GHC 8.8.3.
+compiler-check: newer-minor
+
+# Add the -dynamic flag to every invocation of GHC.
+ghc-options:
+  "$everything": -dynamic

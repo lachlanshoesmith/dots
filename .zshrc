@@ -20,7 +20,6 @@ alias cse_mnt="sshfs -o idmap=user -C z5406222@login2.cse.unsw.edu.au: ~/cse"
 alias cse_umnt="fusermount -u ~/cse"
 
 alias vim="nvim"
-alias btop="btop --force-utf"
 alias htop="btop"
 alias cserun="~/.cargo/bin/cserun"
 
@@ -29,6 +28,9 @@ source /usr/share/nvm/init-nvm.sh
 SSH_AUTH_SOCK=$XDG_RUNTIME_DIR/gcr/ssh
 export SSH_AUTH_SOCK
 
+# java
+export CLASSPATH=.:/home/lachie/code:/home/lachie/cse_local/25t1/comp3131/
+
 # pnpm
 export PNPM_HOME="/home/lachie/.local/share/pnpm"
 case ":$PATH:" in
@@ -36,3 +38,4 @@ case ":$PATH:" in
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 # pnpm end
+
