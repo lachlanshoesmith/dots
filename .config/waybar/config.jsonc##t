@@ -13,6 +13,7 @@
         "hyprland/window"
     ],
     "modules-right": [
+        "mpris",
         "pulseaudio",
         "network",
 {% if yadm.hostname == "cresselia" %}
@@ -187,5 +188,17 @@
         "escape": true,
         "exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null" // Script in resources folder
         // "exec": "$HOME/.config/waybar/mediaplayer.py --player spotify 2> /dev/null" // Filter player based on name
-    }
+    },
+    "mpris": {
+        "format": "{player_icon} {artist} - {title}",
+        "format-paused": "{status_icon} <i>{artist} - {title}</i>",
+        "player-icons": {
+            "default": "▶",
+            "mpv": "🎵"
+        },
+        "status-icons": {
+            "paused": "⏸"
+        },
+        "ignored-players": ["firefox"]
+	}
 }
