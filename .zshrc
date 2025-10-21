@@ -1,17 +1,11 @@
 # wallust theming
 (cat ~/.cache/wallust/sequences &)
 
-export ZSH="$HOME/.oh-my-zsh"
-
-ZSH_THEME="spaceship"
-zstyle ':omz:update' mode disabled
-
 plugins=(
 	git
 	zsh-autosuggestions
+	zsh-syntax-highlighting
 )
-
-source $ZSH/oh-my-zsh.sh
 
 alias cse="ssh -t z5406222@login.cse.unsw.edu.au"
 alias des="ssh -t lachie@192.168.0.40"
@@ -38,3 +32,5 @@ case ":$PATH:" in
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 # pnpm end
+
+eval "$(starship init zsh)"
