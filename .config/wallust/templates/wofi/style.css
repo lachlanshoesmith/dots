@@ -9,7 +9,7 @@ window {
 
 window {
   margin: 0px;
-  background-color: #171818;
+  background-color: #{{ background | strip }};
   border-radius: 16px;
 }
 
@@ -21,7 +21,7 @@ window {
   color: #fff;
   font-weight: bold;
   outline: none;
-  background: #7A7366;
+  background: #{{ color6 | darken(0.5) | strip }};
 }
 
 #input image {
@@ -39,7 +39,7 @@ window {
   margin: 20px;
   margin-top: 0px;
   border: none;
-  color: #F1EADD;
+  color: #{{ color7 | strip }};
 }
 
 #inner-box * {
@@ -89,5 +89,5 @@ window {
   outline: none;
   margin: 0px;
   border: none;
-  background: #312E29;
+  background: #{{ color6 | darken(0.8) | strip }};
 }
