@@ -6,7 +6,7 @@
 
 window#waybar {
   /*background-color: rgba(43, 48, 59, 0.5);*/
-  background-color: rgba(23,24,24, 0.6);
+  background-color: rgba({{background | rgb}}, 0.6);
   color: #ffffff;
   transition-property: background-color;
   transition-duration: 0.5s;
@@ -54,7 +54,7 @@ button {
 }
 
 #workspaces button.active {
-  background-color: #3E3F3F;
+  background-color: #{{color0 | strip}};
   box-shadow: inset 0 -3px #ffffff;
 }
 
@@ -106,7 +106,7 @@ button {
 }
 
 #clock {
-  background-color: #3E3F3F;
+  background-color: #{{color0 | strip}};
 }
 
 #battery {
@@ -308,7 +308,7 @@ label:focus {
 
 /* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect*/
 #pulseaudio:hover, #mpris:hover, #clock:hover {
-  background: #64C38B;
+  background: #{{color5 | strip}};
   color: black;
   /*box-shadow: inset 0 -3px #ffffff;*/
 }

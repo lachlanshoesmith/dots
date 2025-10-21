@@ -15,12 +15,11 @@
     "modules-right": [
         "mpris",
         "pulseaudio",
-        "network",
 {% if yadm.hostname == "cresselia" %}
 	"battery",
 {% endif %}
-        "clock",
-        "tray"
+        "tray",
+        "clock"
     ],
     // Modules configuration
     "hyprland/workspaces": {
