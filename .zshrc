@@ -1,12 +1,6 @@
 # wallust theming
 (cat ~/.cache/wallust/sequences &)
 
-plugins=(
-	git
-	zsh-autosuggestions
-	zsh-syntax-highlighting
-)
-
 alias cse="ssh -t z5406222@login.cse.unsw.edu.au"
 alias des="ssh -t lachie@192.168.0.40"
 alias des_r="ssh -t lachie@cloud.lachlan.codes"
@@ -32,6 +26,15 @@ case ":$PATH:" in
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 # pnpm end
+
+# autosuggestions-related stuff
+setopt APPEND_HISTORY
+setopt SHARE_HISTORY
+HISTFILE=$HOME/.zsh_history
+SAVEHIST=1000
+HISTSIZE=999
+setopt HIST_EXPIRE_DUPS_FIRST
+setopt EXTENDED_HISTORY
 
 eval "$(starship init zsh)"
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
