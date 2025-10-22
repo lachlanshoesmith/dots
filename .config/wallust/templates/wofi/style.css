@@ -24,6 +24,10 @@ window {
   background: #{{ color6 | darken(0.5) | strip }};
 }
 
+::selection {
+  background: #{{ color6 | darken(0.1) | strip }};
+}
+
 #input image {
   color: #fff;
   padding-right: 8px;

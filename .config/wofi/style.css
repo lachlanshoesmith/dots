@@ -24,6 +24,10 @@ window {
   background: #7A7366;
 }
 
+::selection {
+  background: #DCCEB7;
+}
+
 #input image {
   color: #fff;
   padding-right: 8px;
