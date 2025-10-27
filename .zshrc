@@ -25,7 +25,9 @@ case ":$PATH:" in
   *":$PNPM_HOME:"*) ;;
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
-# pnpm end
+
+# haskell
+export PATH="$HOME/.cabal/bin:$HOME/.ghcup/bin:$PATH"
 
 # autosuggestions-related stuff
 setopt APPEND_HISTORY
