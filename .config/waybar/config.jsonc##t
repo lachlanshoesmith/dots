@@ -189,7 +189,6 @@
         // "exec": "$HOME/.config/waybar/mediaplayer.py --player spotify 2> /dev/null" // Filter player based on name
     },
     "mpris": {
-	"player": "spotify",
         "format": "{player_icon} {artist} - {title}",
         "format-paused": "{status_icon} <i>{artist} - {title}</i>",
         "player-icons": {
@@ -199,6 +198,7 @@
         "status-icons": {
             "paused": "⏸"
         },
-//      "ignored-players": ["firefox"]
-	}
+        "ignored-players": ["firefox"],
+	"interval": 1
+    }
 }
