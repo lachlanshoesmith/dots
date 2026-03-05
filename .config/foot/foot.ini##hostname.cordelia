@@ -2,5 +2,5 @@ font=Iosevka Nerd Font:size=16
 
 pad=20x20
 
-[colors]
+[colors-dark]
 alpha=0.9
