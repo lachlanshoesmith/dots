@@ -40,3 +40,6 @@ binde =, XF86MonBrightnessUp, exec, brightnessctl set +2%
 
 bindl = , switch:on:"Lid Switch", exec, hyprctl keyword monitor "eDP-1, disable"
 bindl = , switch:off:"Lid Switch", exec, hyprctl keyword monitor "eDP-1, 1920x1080, 0x0, 1"
+
+bind = SUPER SHIFT, M, exec, hyprctl keyword monitor HDMI-A-2,1920x1080@60.00,0x0,1,mirror,eDP-1
+
