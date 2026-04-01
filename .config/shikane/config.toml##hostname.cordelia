@@ -1,6 +1,6 @@
 [[profile]]
 	name = "default"
-	exec = ["notify-send shikane \"Profile $SHIKANE_PROFILE_NAME has been applied\"", "swww restore; sleep 8; swww restore"]
+	exec = ["notify-send shikane \"Profile $SHIKANE_PROFILE_NAME has been applied\"", "awww restore; sleep 8; awww restore"]
 
 	[[profile.output]]
 		search = "m%S3221QS"
