@@ -44,3 +44,8 @@ setopt EXTENDED_HISTORY
 eval "$(starship init zsh)"
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/home/lachie/.lmstudio/bin"
+# End of LM Studio CLI section
+
