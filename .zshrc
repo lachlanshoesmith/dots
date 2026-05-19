@@ -51,3 +51,7 @@ export PATH="$PATH:/home/lachie/.lmstudio/bin"
 
 bindkey '^[[1;5C' forward-word
 bindkey '^[[1;5D' backward-word
+
+export ANDROID_HOME=/home/lachie/Android/Sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/platform-tools
