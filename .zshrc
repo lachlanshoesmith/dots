@@ -49,3 +49,6 @@ source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 export PATH="$PATH:/home/lachie/.lmstudio/bin"
 # End of LM Studio CLI section
 
+export ANDROID_HOME=/home/lachie/Android/Sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/platform-tools
