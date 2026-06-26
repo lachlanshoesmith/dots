@@ -10,6 +10,7 @@ alias cse_umnt="fusermount -u ~/cse"
 alias vim="nvim"
 alias htop="btop"
 alias cserun="~/.cargo/bin/cserun"
+alias zed="zeditor"
 
 source /usr/share/nvm/init-nvm.sh
 
@@ -55,3 +56,4 @@ bindkey '^[[1;5D' backward-word
 export ANDROID_HOME=/home/lachie/Android/Sdk
 export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/platform-tools
+alias llm='~/code/llm.sh/llm.sh'
