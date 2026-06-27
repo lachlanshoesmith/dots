@@ -1,2 +1,39 @@
 CompileFlags:
-  Add: -ferror-limit=100
+  Add:
+    - -ferror-limit=100
+    - -Wall
+    - -Wextra
+    - -Wpedantic
+    - -Wshadow
+    - -Wconversion
+    - -Wsign-conversion
+    - -Wnon-virtual-dtor
+    - -Wold-style-cast
+    - -Wuseless-cast
+    - -Wzero-as-null-pointer-constant
+    - -Wno-unused-parameter
+Diagnostics:
+  ClangTidy:
+    Add:
+      [
+        bugprone-*,
+        modernize-*,
+        readability-*,
+        clang-analyzer-deadcode.*,
+        misc-unused-*,
+        cppcoreguidelines-avoid-non-const-global-variables,
+        cppcoreguidelines-avoid-goto,
+        cppcoreguidelines-owning-memory,
+        cppcoreguidelines-no-malloc,
+        cppcoreguidelines-prefer-member-initializer,
+        cppcoreguidelines-avoid-const-or-ref-data-members,
+        cppcoreguidelines-pro-type-reinterpret-cast,
+        cppcoreguidelines-pro-type-const-cast,
+        cppcoreguidelines-pro-type-cstyle-cast,
+        cppcoreguidelines-macro-usage,
+        performance-avoid-endl,
+        performance-unnecessary-copy-initialization,
+        performance-unnecessary-value-param,
+        google-build-using-namespace,
+        google-explicit-constructor,
+      ]
