@@ -1,0 +1,33 @@
+# wallust theming
+(cat ~/.cache/wallust/sequences &)
+
+alias cse="ssh -t z5406222@login.cse.unsw.edu.au"
+alias des="ssh -t lachie@192.168.8.40"
+alias des_r="ssh -t lachie@cloud.lachlan.codes"
+alias cse_mnt="sshfs -o idmap=user -C z5406222@login.cse.unsw.edu.au: ~/cse"
+alias cse_umnt="fusermount -u ~/cse"
+
+alias vim="nvim"
+alias htop="btop"
+alias zed="zeditor"
+
+SSH_AUTH_SOCK=$XDG_RUNTIME_DIR/gcr/ssh
+export SSH_AUTH_SOCK
+
+setopt APPEND_HISTORY
+setopt SHARE_HISTORY
+HISTFILE=$HOME/.zsh_history
+SAVEHIST=1000
+HISTSIZE=999
+setopt HIST_EXPIRE_DUPS_FIRST
+setopt EXTENDED_HISTORY
+
+eval "$(starship init zsh)"
+for f in /opt/homebrew/share/zsh-*/*.zsh(N); do
+    source "$f"
+done
+
+bindkey '^[[1;5C' forward-word
+bindkey '^[[1;5D' backward-word
+
+alias llm='~/code/llm.sh/llm.sh'
