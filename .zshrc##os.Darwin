@@ -10,6 +10,8 @@ alias cse_umnt="fusermount -u ~/cse"
 alias vim="nvim"
 alias htop="btop"
 alias zed="zeditor"
+alias mlx_lm.server="/opt/homebrew/opt/mlx-lm/bin/mlx_lm.server"
+alias ibm="cd /Users/lachlanshoesmith/Library/CloudStorage/Nextcloud-cloud.lachlan.codes-LachlanShoesmith/notes/esperanza/7_work/ibm/"
 
 SSH_AUTH_SOCK=$XDG_RUNTIME_DIR/gcr/ssh
 export SSH_AUTH_SOCK
@@ -31,3 +33,10 @@ bindkey '^[[1;5C' forward-word
 bindkey '^[[1;5D' backward-word
 
 alias llm='~/code/llm.sh/llm.sh'
+alias llm-mlx='~/code/llm.sh/llm-mlx.sh'
+
+# Created by `pipx` on 2026-07-21 00:30:20
+export PATH="$PATH:/Users/lachlanshoesmith/.local/bin"
+export PATH="$PATH:/Applications"
+export KUBE_EDITOR="code --wait"
+export PATH="$HOME/.cargo/bin:$PATH"
