@@ -52,8 +52,9 @@ export PATH="$PATH:/home/lachie/.lmstudio/bin"
 
 bindkey '^[[1;5C' forward-word
 bindkey '^[[1;5D' backward-word
+bindkey '^[[3~' delete-char
 
 export ANDROID_HOME=/home/lachie/Android/Sdk
 export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/platform-tools
-alias llm='~/code/llm.sh/llm.sh'
+alias llm='llama-server --models-preset /home/lachie/llms/configs/config.ini --models-autoload --models-max 1'
